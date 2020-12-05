@@ -1,0 +1,9 @@
+// Mixins to be used in component styles, only include scss level, which does not pollute result css
+//  For example, do not include classes, which will be included in every components and results duplicated definition in
+//   result css
+//  Import scss mixins and variables
+
+// Import customs
+@import "./variables";
+@import "./colors";
+@import "./fonts";
